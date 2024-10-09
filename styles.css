@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #aaa;
+    height: 60px; /* Header height */
+}
+
+.main {
+    display: flex;
+    flex: 1; /* Take the remaining height */
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 70%; /* Width of the left column */
+    padding: 10px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* Width of the right column */
+    padding: 10px;
+}
+
+.box {
+    background-color: #ccc; /* Box color */
+    margin-bottom: 10px; /* Space between boxes */
+    flex: 1; /* Make boxes equal height */
+}
+
+.box1, .box2, .box3, .box4 {
+    height: 100px; /* Adjust height of boxes */
+}
+
+.box5, .box6 {
+    height: 100px; /* Adjust height of boxes */
+}
+
+.footer {
+    background-color: #aaa;
+    height: 40px; /* Footer height */
+}
